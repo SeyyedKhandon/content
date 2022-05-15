@@ -15,10 +15,10 @@ Browser vendors sometimes add prefixes to experimental or nonstandard CSS proper
 
 The major browsers use the following prefixes:
 
-- `-webkit-` (Chrome, Safari, newer versions of Opera, almost all iOS browsers including Firefox for iOS; basically, any WebKit based browser)
+- `-webkit-` (Chrome, Microsoft Edge, Safari, newer versions of Opera, almost all iOS browsers including Firefox for iOS; basically, any WebKit based browser)
 - `-moz-` (Firefox)
 - `-o-` (old pre-WebKit versions of Opera)
-- `-ms-` (Internet Explorer and Microsoft Edge)
+- `-ms-` (Internet Explorer)
 
 Sample usage:
 
@@ -38,19 +38,19 @@ Historically, vendors have also used prefixes for experimental APIs. If an entir
 
 Prefixes for interface names are upper-cased:
 
-- `WebKit` (Chrome, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS); basically, any WebKit based browser)
+- `WebKit` (Chrome, Microsoft Edge, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS); basically, any WebKit based browser)
 - `Moz` (Firefox)
 - `O` (Older, pre-WebKit, versions of Opera)
-- `MS` (Internet Explorer and Microsoft Edge)
+- `MS` (Internet Explorer)
 
 ### Property and method prefixes
 
 The prefixes for properties and methods are lower-case:
 
-- `webkit` (Chrome, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS); basically, any WebKit based browser)
+- `webkit` (Chrome, Microsoft Edge, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS); basically, any WebKit based browser)
 - `moz` (Firefox)
 - `o` (Old, pre-WebKit, versions of Opera)
-- `ms` (Internet Explorer and Microsoft Edge)
+- `ms` (Internet Explorer)
 
 Sample usage:
 
